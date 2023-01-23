@@ -632,6 +632,11 @@ header .imgmenu {
 #menu .titre .heart {
   margin-left: 24px;
 }
+@media screen and (max-width: 767px) {
+  #menu .titre .heart {
+    margin-left: 71px;
+  }
+}
 #menu .titre .heart:hover {
   animation: heart 1s forwards;
 }

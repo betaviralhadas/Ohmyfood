@@ -79,6 +79,9 @@ header {
             }
             .heart {
                 margin-left: 24px;
+                @media screen and (max-width:767px) {
+                    margin-left: 71px;
+                }
                 &:hover {
                     animation: heart 1s forwards;
                 }
