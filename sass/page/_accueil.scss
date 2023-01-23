@@ -2,6 +2,7 @@ body {
     font-family: "Roboto", sans-serif;
     margin: auto;
 }
+/*loader*/
 .anm {
     position: fixed;
     z-index: 989;
@@ -33,6 +34,7 @@ body {
     width: 100%;
 
 }
+/*header*/
 header {
     display: flex;
     flex-direction: column;
@@ -66,6 +68,7 @@ header {
         }
     }
 }
+/*titre*/
 .firstsection { 
     background: $background;
     text-align: center;
@@ -98,6 +101,8 @@ header {
             }
         }
 }
+/*main*/
+/*fonctionement*/
 .operation {
     height: 262px;
     display: flex;
@@ -182,6 +187,7 @@ header {
             }
         }           
 }
+/*cartes*/
 #restaurants {
     display: flex;
     justify-content: center;

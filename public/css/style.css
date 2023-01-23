@@ -209,6 +209,7 @@ body {
   margin: auto;
 }
 
+/*loader*/
 .anm {
   position: fixed;
   z-index: 989;
@@ -246,6 +247,7 @@ body {
   width: 100%;
 }
 
+/*header*/
 header {
   display: flex;
   flex-direction: column;
@@ -286,6 +288,7 @@ header .localisation .iconloc {
   padding: 16px;
 }
 
+/*titre*/
 .firstsection {
   background: #F7F7F7;
   text-align: center;
@@ -327,6 +330,8 @@ header .localisation .iconloc {
   }
 }
 
+/*main*/
+/*fonctionement*/
 .operation {
   height: 262px;
   display: flex;
@@ -423,6 +428,7 @@ header .localisation .iconloc {
   margin-left: -52px;
 }
 
+/*cartes*/
 #restaurants {
   display: flex;
   justify-content: center;
