@@ -539,6 +539,7 @@ body {
   margin: auto;
 }
 
+/*logo et img*/
 header {
   display: flex;
   flex-direction: column;
@@ -594,6 +595,7 @@ header .imgmenu {
   }
 }
 
+/*main*/
 #menu {
   margin: -51px 192px 0 192px;
   padding: 51px 210px 40px 210px;
@@ -603,6 +605,7 @@ header .imgmenu {
   width: 1055px;
   height: 1221px;
   animation: apparition 3s forwards;
+  /*menu*/
 }
 @media screen and (max-width: 767px) {
   #menu {
